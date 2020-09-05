@@ -1,0 +1,195 @@
+/* Default styles
+ =================================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.section {
+    width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Section Cards */
+/* Header content
+ =================================================== */
+header {
+    padding: 107px 0 40px;
+}
+
+.top__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #212121;
+}
+
+.top__line {
+    width: 64px;
+    height: 2px;
+    margin: 30px auto;
+    background: #FF8B38;
+    border: none;
+}
+
+.top_description {
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+/* Section-cards */
+/* Main content =================================================== */
+main {
+    padding: 40px 0 102px;
+    font-size: 0;
+}
+
+.card {
+    display: inline-block;
+    width: 355px;
+    margin: 0 16px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 2px solid #FF8B38;
+    border-radius: 50%;
+}
+
+h3 {
+    margin: 29px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+.icon--lamp {
+    background: url(../img/lamp.png) no-repeat center center;
+}
+
+.icon--keyboard {
+    background: url(../img/keyboard.png) no-repeat center center;
+}
+
+.icon--lightning {
+    background: url(../img/lightning.png) no-repeat center center;
+}
+
+/* Section Button */
+.section-button {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/city.png) no-repeat top center;
+    background-size: cover;
+}
+
+/* Section Button */
+/* Header content
+ =================================================== */
+ .section-button header{
+    padding: 76px 0 33px;
+}
+
+.section-button__top__title{
+    color: #FFFFFF;
+}
+
+.section-button__top__line {
+    margin: 26px auto 23px;
+    background: #FFFFFF;
+}
+
+.section-button__top__description {
+    color: #FFFFFF;
+}
+
+/* Section Button */
+/* Main content
+ =================================================== */
+ .section-button__button{
+    width: 135px;
+    height: 42px;
+    margin-bottom: 63px;
+    border: 2px solid #FFFFFF;
+    background: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer content
+ =================================================== */
+footer {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 39px 0 15px;
+    background-color: #000000;
+    font-size: 0;
+}
+
+.footer-links{
+    margin: 0 auto 15px;
+    width: 317px;
+
+}
+
+.footer-links__social-button{
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    /* background-color: aquamarine; */
+    margin-right: 26px;
+}
+
+.footer-links__social-button:last-child{
+    margin-right: 0;
+}
+
+.footer-links__social-button_fb{
+    background: #FFFFFF url(../img/social-icons/facebook.png) no-repeat center center;
+}
+
+.footer-links__social-button_tw{
+    background: #FFFFFF url(../img/social-icons/twitter.png) no-repeat center center;
+}
+
+.footer-links__social-button_yt{
+    background: #FFFFFF url(../img/social-icons/youtube.png) no-repeat center center;
+}
+
+.footer-links__social-button_pnt{
+    background: #FFFFFF url(../img/social-icons/pinterest.png) no-repeat center center;
+}
+
+.footer-links__social-button_inst{
+    background: #FFFFFF url(../img/social-icons/instagram.png) no-repeat center center;
+}
+
+.footer-links__social-button_stmb{
+    background: #FFFFFF url(../img/social-icons/stumbleupon.png) no-repeat center center;
+}
+
+.footer-links__social-button_rss{
+    background: #FFFFFF url(../img/social-icons/rss.png) no-repeat center center;
+}
+
+.footer-copy {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
