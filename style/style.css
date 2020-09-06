@@ -161,31 +161,31 @@ footer {
 }
 
 .footer-links__social-button_fb{
-    background: #FFFFFF url(../img/social-icons/facebook.png) no-repeat center center;
+    background: url(../img/social-icons/facebook.png) no-repeat center center;
 }
 
 .footer-links__social-button_tw{
-    background: #FFFFFF url(../img/social-icons/twitter.png) no-repeat center center;
+    background:  url(../img/social-icons/twitter.png) no-repeat center center;
 }
 
 .footer-links__social-button_yt{
-    background: #FFFFFF url(../img/social-icons/youtube.png) no-repeat center center;
+    background:  url(../img/social-icons/youtube.png) no-repeat center center;
 }
 
 .footer-links__social-button_pnt{
-    background: #FFFFFF url(../img/social-icons/pinterest.png) no-repeat center center;
+    background:  url(../img/social-icons/pinterest.png) no-repeat center center;
 }
 
 .footer-links__social-button_inst{
-    background: #FFFFFF url(../img/social-icons/instagram.png) no-repeat center center;
+    background:  url(../img/social-icons/instagram.png) no-repeat center center;
 }
 
 .footer-links__social-button_stmb{
-    background: #FFFFFF url(../img/social-icons/stumbleupon.png) no-repeat center center;
+    background:  url(../img/social-icons/stumbleupon.png) no-repeat center center;
 }
 
 .footer-links__social-button_rss{
-    background: #FFFFFF url(../img/social-icons/rss.png) no-repeat center center;
+    background:  url(../img/social-icons/rss.png) no-repeat center center;
 }
 
 .footer-copy {
