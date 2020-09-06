@@ -132,6 +132,11 @@ p {
     cursor: pointer;
 }
 
+.section-button__button:active,
+.section-button__button:visited {
+    outline-style: none
+}
+
 /* Footer content
  =================================================== */
 footer {
