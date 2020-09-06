@@ -152,7 +152,6 @@ footer {
     display: inline-block;
     width: 23px;
     height: 23px;
-    /* background-color: aquamarine; */
     margin-right: 26px;
 }
 
@@ -161,31 +160,31 @@ footer {
 }
 
 .footer-links__social-button_fb{
-    background: url(../img/social-icons/facebook.png) no-repeat center center;
+    background: #000000 url(../img/social-icons/facebook.png) no-repeat center center;
 }
 
 .footer-links__social-button_tw{
-    background:  url(../img/social-icons/twitter.png) no-repeat center center;
+    background: #000000 url(../img/social-icons/twitter.png) no-repeat center center;
 }
 
 .footer-links__social-button_yt{
-    background:  url(../img/social-icons/youtube.png) no-repeat center center;
+    background: #000000 url(../img/social-icons/youtube.png) no-repeat center center;
 }
 
 .footer-links__social-button_pnt{
-    background:  url(../img/social-icons/pinterest.png) no-repeat center center;
+    background: #000000 url(../img/social-icons/pinterest.png) no-repeat center center;
 }
 
 .footer-links__social-button_inst{
-    background:  url(../img/social-icons/instagram.png) no-repeat center center;
+    background: #000000 url(../img/social-icons/instagram.png) no-repeat center center;
 }
 
 .footer-links__social-button_stmb{
-    background:  url(../img/social-icons/stumbleupon.png) no-repeat center center;
+    background: #000000 url(../img/social-icons/stumbleupon.png) no-repeat center center;
 }
 
 .footer-links__social-button_rss{
-    background:  url(../img/social-icons/rss.png) no-repeat center center;
+    background: #000000 url(../img/social-icons/rss.png) no-repeat center center;
 }
 
 .footer-copy {
