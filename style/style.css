@@ -46,7 +46,7 @@ header {
 
 /* Section-cards */
 /* Main content =================================================== */
-main {
+.wrap {
     padding: 40px 0 102px;
     font-size: 0;
 }
@@ -119,7 +119,8 @@ p {
 /* Section Button */
 /* Main content
  =================================================== */
- .section-button__button{
+ .section-button__download-button{
+    display: inline-block;
     width: 135px;
     height: 42px;
     margin-bottom: 63px;
@@ -130,11 +131,8 @@ p {
     font-size: 15px;
     text-decoration: none;
     cursor: pointer;
-}
-
-.section-button__button:active,
-.section-button__button:visited {
-    outline-style: none
+    outline:0;
+    line-height: 42px;
 }
 
 /* Footer content
@@ -147,48 +145,48 @@ footer {
     font-size: 0;
 }
 
-.footer-links{
+.footer__social-links{
     margin: 0 auto 15px;
     width: 317px;
 
 }
 
-.footer-links__social-button{
+.footer__icon{
     display: inline-block;
     width: 23px;
     height: 23px;
     margin-right: 26px;
 }
 
-.footer-links__social-button:last-child{
+.footer__icon:last-child{
     margin-right: 0;
 }
 
-.footer-links__social-button_fb{
+.footer__icon--fb{
     background: #000000 url(../img/social-icons/facebook.png) no-repeat center center;
 }
 
-.footer-links__social-button_tw{
+.footer__icon--tw{
     background: #000000 url(../img/social-icons/twitter.png) no-repeat center center;
 }
 
-.footer-links__social-button_yt{
+.footer__icon--yt{
     background: #000000 url(../img/social-icons/youtube.png) no-repeat center center;
 }
 
-.footer-links__social-button_pnt{
+.footer__icon--pnt{
     background: #000000 url(../img/social-icons/pinterest.png) no-repeat center center;
 }
 
-.footer-links__social-button_inst{
+.footer__icon--inst{
     background: #000000 url(../img/social-icons/instagram.png) no-repeat center center;
 }
 
-.footer-links__social-button_stmb{
+.footer__icon--stmb{
     background: #000000 url(../img/social-icons/stumbleupon.png) no-repeat center center;
 }
 
-.footer-links__social-button_rss{
+.footer__icon--rss{
     background: #000000 url(../img/social-icons/rss.png) no-repeat center center;
 }
 
