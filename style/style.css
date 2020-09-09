@@ -16,11 +16,11 @@
 /* Section Cards */
 /* Header content
  =================================================== */
-header {
+.header {
     padding: 107px 0 40px;
 }
 
-.top__title {
+.header__title {
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
     text-transform: uppercase;
@@ -28,7 +28,7 @@ header {
     color: #212121;
 }
 
-.top__line {
+.header__line {
     width: 64px;
     height: 2px;
     margin: 30px auto;
@@ -36,7 +36,7 @@ header {
     border: none;
 }
 
-.top_description {
+.header__description {
     color: #86878B;
     font-size: 14px;
     font-weight: 400;
@@ -57,7 +57,7 @@ header {
     margin: 0 16px;
 }
 
-.icon {
+.card__icon {
     width: 70px;
     height: 70px;
     margin: 0 auto;
@@ -65,28 +65,28 @@ header {
     border-radius: 50%;
 }
 
-h3 {
+.card__title {
     margin: 29px 0;
     font-size: 20px;
     font-weight: 700;
     color: #333333;
 }
 
-p {
+.card__text {
     font-size: 14px;
     font-weight: 400;
     color: #86878B;
 }
 
-.icon--lamp {
+.card__icon--lamp {
     background: url(../img/lamp.png) no-repeat center center;
 }
 
-.icon--keyboard {
+.card__icon--keyboard {
     background: url(../img/keyboard.png) no-repeat center center;
 }
 
-.icon--lightning {
+.card__icon--lightning {
     background: url(../img/lightning.png) no-repeat center center;
 }
 
@@ -99,45 +99,45 @@ p {
 /* Section Button */
 /* Header content
  =================================================== */
- .section-button header{
+ .section-button__header{
     padding: 76px 0 33px;
 }
 
-.section-button__top__title{
+.section-button__header__title{
     color: #FFFFFF;
 }
 
-.section-button__top__line {
+.section-button__header__line {
     margin: 26px auto 23px;
     background: #FFFFFF;
 }
 
-.section-button__top__description {
+.section-button__header__description {
     color: #FFFFFF;
 }
 
 /* Section Button */
 /* Main content
  =================================================== */
- .section-button__download-button{
+ .section-button__button{
     display: inline-block;
     width: 135px;
     height: 42px;
     margin-bottom: 63px;
     border: 2px solid #FFFFFF;
     background: none;
+    line-height: 42px;
+    outline:0;
     font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
     font-size: 15px;
     text-decoration: none;
     cursor: pointer;
-    outline:0;
-    line-height: 42px;
 }
 
 /* Footer content
  =================================================== */
-footer {
+.footer {
     width: 1400px;
     margin: 0 auto;
     padding: 39px 0 15px;
@@ -145,48 +145,48 @@ footer {
     font-size: 0;
 }
 
-.footer__social-links{
+.footer__social-links {
     margin: 0 auto 15px;
+    padding: 0;
     width: 317px;
-
 }
 
-.footer__icon{
+.footer__icon {
     display: inline-block;
     width: 23px;
     height: 23px;
     margin-right: 26px;
 }
 
-.footer__icon:last-child{
+.footer__icon:last-child {
     margin-right: 0;
 }
 
-.footer__icon--fb{
+.footer__icon--fb {
     background: #000000 url(../img/social-icons/facebook.png) no-repeat center center;
 }
 
-.footer__icon--tw{
+.footer__icon--tw {
     background: #000000 url(../img/social-icons/twitter.png) no-repeat center center;
 }
 
-.footer__icon--yt{
+.footer__icon--yt {
     background: #000000 url(../img/social-icons/youtube.png) no-repeat center center;
 }
 
-.footer__icon--pnt{
+.footer__icon--pnt {
     background: #000000 url(../img/social-icons/pinterest.png) no-repeat center center;
 }
 
-.footer__icon--inst{
+.footer__icon--inst {
     background: #000000 url(../img/social-icons/instagram.png) no-repeat center center;
 }
 
-.footer__icon--stmb{
+.footer__icon--stmb {
     background: #000000 url(../img/social-icons/stumbleupon.png) no-repeat center center;
 }
 
-.footer__icon--rss{
+.footer__icon--rss {
     background: #000000 url(../img/social-icons/rss.png) no-repeat center center;
 }
 
@@ -194,4 +194,5 @@ footer {
     text-align: center;
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;
+    color: #86878B;
 }
